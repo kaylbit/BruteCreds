@@ -4,7 +4,7 @@ A lightweight, multithreaded Python tool for testing login endpoints using a pas
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is intended **strictly for educational purposes and authorized security testing only**.
 
@@ -17,7 +17,7 @@ Unauthorized use may violate laws and regulations.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Multithreaded password testing for faster execution
 - Smart response detection (JSON + text-based analysis)
@@ -28,7 +28,7 @@ Unauthorized use may violate laws and regulations.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - requests library
@@ -41,7 +41,7 @@ pip install requests
 
 ---
 
-## 📌 Usage
+## Usage
 
 ```bash
 python brutecreds.py <url> <username> <wordlist> <threads>
@@ -49,7 +49,7 @@ python brutecreds.py <url> <username> <wordlist> <threads>
 
 ---
 
-## 🧪 Example
+## Example
 
 ```bash
 python brutecreds.py http://127.0.0.1:5000/login admin rockyou.txt 10
@@ -57,7 +57,7 @@ python brutecreds.py http://127.0.0.1:5000/login admin rockyou.txt 10
 
 ---
 
-## 📥 Parameters
+## Parameters
 
 | Argument   | Description |
 |------------|-------------|
@@ -68,7 +68,7 @@ python brutecreds.py http://127.0.0.1:5000/login admin rockyou.txt 10
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. Loads passwords from the provided wordlist
 2. Sends concurrent POST requests using threads
@@ -78,7 +78,7 @@ python brutecreds.py http://127.0.0.1:5000/login admin rockyou.txt 10
 
 ---
 
-## 🧠 Success Detection Logic
+## Success Detection Logic
 
 A login attempt is considered successful if:
 
@@ -87,7 +87,7 @@ A login attempt is considered successful if:
 
 ---
 
-## ⚡ Limitations
+## Limitations
 
 - No CAPTCHA bypass
 - No proxy support
@@ -97,7 +97,7 @@ A login attempt is considered successful if:
 
 ---
 
-## 🛠️ Possible Improvements
+## Possible Improvements
 
 - Proxy rotation support
 - CAPTCHA handling modules
@@ -108,7 +108,7 @@ A login attempt is considered successful if:
 
 ---
 
-## 📁 Example Wordlist Format
+## Example Wordlist Format
 
 ```
 123456
@@ -120,7 +120,7 @@ qwerty
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Created as part of a cybersecurity learning journey focusing on:
 - Authentication testing
